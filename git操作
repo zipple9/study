@@ -16,3 +16,11 @@
 （7）git stash drop stash@{$num} ：丢弃stash@{$num}存储，从列表中删除这个存储
 
 （8）git stash clear ：删除所有缓存的stash
+
+
+
+
+##git reset  撤销提交
+git reset head^
+HEAD^的意思是上一个版本，也可以写成HEAD~1
+如果你进行了2次commit，想都撤回，可以使用HEAD~2
